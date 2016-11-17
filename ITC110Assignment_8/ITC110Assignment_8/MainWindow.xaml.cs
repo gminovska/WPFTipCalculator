@@ -24,7 +24,7 @@ namespace ITC110Assignment_8
         {
             InitializeComponent();
         }
-
+        //if the user types in custom percent, check the custom radio button
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             tipCustom.IsChecked = true;
