@@ -32,7 +32,7 @@ namespace ITC110Assignment_8
 
         private void calcButton_Click(object sender, RoutedEventArgs e)
         {
-            //get the meal cost
+            //declare and initialize the variables
             double mealPrice = 0;
             double tipPercent = 0;
             bool validPrice = double.TryParse(mealPriceInput.Text, out mealPrice);
